@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscrição XII CONFADER - PVH</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- Cabeçallho -->
+    <header class="cabecalho">
+        <h1 class="titulo">Inscrição - XII CONFADER</h1>
+    </header>
+
+    <!--Conteúdo principal-->
+    <main class="conteudo-principal">
+        <!--Formulário-->
+        <form class="formulario" action="#" method="#" target="_blank" autocomplete="off">
+
+            <!--Campo de Dados pessoais-->
+            <fieldset class="dados-pessoais">
+                <!--Título do campo-->
+                <legend class="legenda-1">Dados pessoais</legend>
+
+                <!--Entrada de nome completo-->
+                <p class="nome-completo">
+                    <label for="nome-completo">Nome completo</label>
+                    <input type="text" id="nome-completo" name="nome-completo" placeholder="Digite seu nome">
+                </p>
+
+                <!--Entrada do CPF-->
+                <P class="cpf">
+                    <label for="cpf">CPF</label>
+                    <input type="text" id="cpf" name="cpf" placeholder="000.000.000-00">
+                </P>
+
+                <!--Entrada da Data de Nascimento-->
+                <p class="data-nascimento">
+                    <label for="data-nascimento">Data de nascimento</label>
+                    <input type="date" id="data-nascimento" name="data-nascimento">
+                </p>
+            </fieldset>
+
+            <!--Campo de Contato-->
+            <fieldset class="contato">
+                <!--Título do campo-->
+                <legend class="legenda-2">Contato</legend>
+
+                <!--Entrada do telefone-->
+                <p class="telefone">
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" name="telefone" placeholder="(00) 00000-0000">
+                </p>
+
+                <!--Entrada do telefone 2-->
+                <p class="telefone-2">
+                    <label for="telefone-2">Telefone 2</label>
+                    <input type="tel" id="telefone-2" name="telefone-2" placeholder="(00) 00000-0000">
+                </p>
+
+                <!--Entrada do E-mail-->
+                <p class="email">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="exemplo@email.com">
+                </p>
+            </fieldset>
+
+            <!--Campo de endereço-->
+            <fieldset class="endereco categoria">
+                <!--Título do campo-->
+                <legend class="legenda-3">Endereço</legend>
+
+                <div class="dupla-a duplas">
+                    <!--Entrada - CEP-->
+                    <p class="cep">
+                        <label for="cep">CEP</label>
+                        <input type="" id="cep" name="cep" placeholder="00000-000">
+                    </p>
+
+                    <!--Entrada - Número da casa-->
+                    <p class="numero">
+                        <label for="numero">Número</label>
+                        <input type="text" id="numero" name="numero" placeholder="0000">
+                    </p>
+                </div>
+
+                <div class="dupla-b duplas">
+                    <!--Entrada - Nome da rua-->
+                    <p class="rua">
+                        <label for="rua">Rua</label>
+                        <input type="text" id="rua" name="rua" placeholder="Rua exemplo">
+                    </p>
+
+                    <!--Entrada - Nome da rua-->
+                    <p class="bairro">
+                        <label for="bairro">Bairro</label>
+                        <input type="text" id="bairro" name="bairro" placeholder="Bairro exemplo">
+                    </p>
+                </div>
+
+                <div class="dupla-c duplas">
+                    <!--Entrada - Nome da cidade-->
+                    <p class="cidade">
+                        <label for="cidade">Cidade</label>
+                        <input type="text" id="cidade" name="cidade" placeholder="Cidade exemplo">
+                    </p>
+
+                    <!--Entrada - Estado-->
+                    <p class="estado">
+                        <label for="estado">Estado</label>
+                        <input type="text" id="estado" name="estado" placeholder="EE">
+                    </p>
+                </div>
+
+                <!--Entrada - Complemento-->
+                <p class="complemento">
+                    <label for="complemento">Complemento</label>
+                    <input type="text" id="complemento" name="complemento" placeholder="Complemento exemplo">
+                </p>
+            </fieldset>
+
+            <!--Campo de dados da igreja-->
+            <fieldset class="dados-institucionais categoria">
+                <!--Título do campo-->
+                <legend class="legenda-4">Dados Institucionais</legend>
+
+                <!--Entrada - Nome da Igreja-->
+                <p class="nome-igreja">
+                    <label for="nome-igreja">Nome da Igreja</label>
+                    <input type="text" id="nome-igreja" name="nome-igreja" placeholder="Nome exemplo">
+                </p>
+
+                <!--Entrada - Cidade em que a igreja está-->
+                <p class="cidade-igreja">
+                    <label for="cidade-igreja">Cidade</label>
+                    <input for="cidade-igreja" id="cidade-igreja" name="cidade-igreja" placeholder="Cidade exemplo">
+                </p>
+
+                <!--Entrada - Nome da líde da UFAD local-->
+                <p class="lider-local">
+                    <label for="lider-local">Lídel da UFAD local</label>
+                    <input type="text" id="lider-local" name="lider-local" placeholder="Nome exemplo">
+                </p>
+            </fieldset>
+
+            <!--Botão "CONTINUAR" -> Leva à página de pagamento-->
+            <p class="botao-enviar">
+                <button type="submit">CONTINUAR</button>
+                <!--"CONTINUAR" para fins didáticos e pedagógicos. Observe o "type" do botão.-->
+            </p>
+        </form>
+    </main>
+
+    <!--Rodapé-->
+    <footer class="rodape">
+        <!--Texto informativo do rodapé-->
+        <p clss="xxi-confader">XII CONFADER</p> 
+        <p class="iead">Igreja Evangélica Assembléia de Deus</p>
+        <p class="pvh">Porto Velho/RO</p>
+        
+    </footer>
+</body>
+
+
+</html>

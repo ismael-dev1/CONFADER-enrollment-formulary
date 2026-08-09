@@ -1,0 +1,44 @@
+Formulário de inscrição - XII CONFADER
+
+A pessoa se inscrevendo é uma irmã da Igreja Evangélica Assembleia de Deus membro da UFADER.
+
+Dados pessoais (Identificação da irmã)
+	Nome completo
+	CPF
+	Data de nascimento
+	Cargo ou ministério que exerce
+
+Contato (Contato com a imrã)
+	Telefone
+	Telefone alternativo
+	E-mail
+
+Endereço Completo
+	Rua
+	Número
+	Bairro
+	Cidade
+	Estado
+	CEP
+	Complemento
+	
+Dados da Igreja
+	Nome da igreja
+	Cidade
+	Estado
+	Nome da líder local
+
+--------------------------------------------------------------------------------------------------------------------------
+
+Cores:
+
+Magenta claro: #fcf0f9 
+Rosa Claro: #edc1d5
+Magenta: #da1f81 
+Magenta apagado: #4e434b
+Cor do placeholder: #718096
+Layout de página: 
+
+Fundo Magenta claro e por cima uma caixa Magenta com o texto em magenta claro 
+
+Fonte do título: Times New Roman Bold

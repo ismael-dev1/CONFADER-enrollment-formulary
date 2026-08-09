@@ -1,0 +1,5 @@
+Preciso trabalhar nesse formulário em níveis de especificidade menores ainda, ainda mais especifico. 
+
+Trabalhar mais o paddins dos placeholders e trabalhar o tamanho da fonte no momento da escrita do valor.
+
+Dar "margin-bottom: 42.73px;" em "Endereço" depois.
