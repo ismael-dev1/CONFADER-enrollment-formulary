@@ -1,402 +1,374 @@
-/*================Reset geral do CSS===================*/
+/*=== General CSS reset ===*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-decoration: none;
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
 }
 
-/*================Body===================*/
+/*=== REM reference ===*/
+html {
+    font-size: 62.5%;
+}
+
+/*=== body ===*/
 body {
     width: 100%;
     background-color: #fcf0f9;
 }
 
-/*================Cabeçalho===================*/
+/*=== Header ===*/
 .header {
-    /* Box model*/
     width: 100%;
     height: auto;
 
-    /*Flex box*/
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-
-    /*Fonte*/
-    font-size: 50px;
-    color: #FCF0F9;
-
-    /* Cores */
     background-color: #DA1F81;
+
+    display: flex;
+    /* current main-axis */
+    flex-direction: row;
+    /* main-axis */
+    justify-content: center;
+
+    font-size: 5rem;
+    color: #FCF0F9;
 }
 
-/*Conteúdo Pricipal*/
+/*=== Main content ===*/
 .main-content {
-    /*Flex box*/
     display: flex;
+    /* current main-axis */
+    flex-direction: row;
+    /* main-axis */
     justify-content: center;
 }
 
-/*================Formulário===================*/
+/*=== Formulary ===*/
 .formulary {
-    /*Box model*/
-    width: 1150px;
-    height: 2330px;
+    width: 115rem;
+    height: 233rem;
 
-    margin: 70px 180px 69px 180px;
+    margin: 7rem 18rem 6.9rem 18rem;
     border-radius: 25px;
 
-    /*Gap*/
-    /*gap: 300px;*/
+    background-color: #DA1F81;
 
-    /*Flex box*/
     display: flex;
-    /*Eixo principal ativo*/
+    /* current main-axis */
     flex-direction: column;
-    /*Eixo principal*/
+    /* main-axis ("start"? flex-start?) */
     justify-content: start;
-    /*Eixo transversal*/
+    /* cross-axis */
     align-items: center;
 
-    /*Cores*/
-
-    /*Cor de fundo*/
-    background-color: #DA1F81;
-    /*Cor da fonte*/
     color: #FCF0F9;
 }
 
-/*================DADOS PESSOAIS===================*/
-
-/*Fieldset Dados pessoais*/
+/*=== Personal data ===*/
 .personal-data {
-    width: 1050px;
+    width: 105rem;
     height: auto;
     border: none;
+
     margin-bottom: 38.7px;
-    /*background-color: green;*/
 
     display: flex;
+    /* current main-axis */
     flex-direction: column;
-    /*Eixo transversal*/
+    /* cross-axis */
     align-items: center;
 }
 
-/*Título do fieldset*/
+/*=== Fieldset title ===*/
 .legend-1 {
-    margin-bottom: 26.4px;
-    padding: 60px 0 0 30px;
+    margin-bottom: 2.64rem;
+    padding: 6rem 0 0 3rem;
 
-    font-size: 70px;
+    font-size: 7rem;
     font-weight: bold;
 }
 
-/*Definições gerais para parágrafos de dados pessoais*/
+/*== Personal data general settings ===*/
 .personal-data div {
-    /*Box model*/
-    width: 980px;
+    width: 98rem;
     height: auto;
 
-    /*Flex Box*/
     display: flex;
+    /* current main-axis */
     flex-direction: column;
 }
 
-/*================Nome Completo===================*/
+/*===Full Name===*/
 
-/*Definições gerais para nome completo*/
+/* General settings */
 .full-name {
-    /* background-color: lightblue; */
-    font-size: 45px;
+    font-size: 4.5rem;
 }
 
-/*Definições do título do input*/
+/* Input title */
 .full-name label {
-    /*Box model*/
-    margin-bottom: 14.04px;
+    margin-bottom: 1.404rem;
 
     cursor: pointer;
 }
 
-/*Definições do input*/
+/* Input settings */
 .full-name input {
-    /*Box model*/
-    height: 51.13px;
-    padding: 13px 0 15px 15px;
+    height: 5.113rem;
+    padding: 1.3rem 0 1.5rem 1.5rem;
     border-radius: 25px;
     border: none;
 
-    /*Definições de fonte*/
-    font-size: 32px;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 3.2rem;
+    font-family: 'Times New Roman';
 }
 
-/*================CPF===================*/
+/*===CPF===*/
 
-/*Deifinções gerais do CPF*/
+/* General settings */
 .cpf {
-    /*background-color: darkgray;*/
-    /*Box model*/
-    margin-top: 9.02px;
+    margin-top: 0.902rem;
 
-    /*Deifnições de fonte*/
-    font-size: 45px;
+    font-size: 4.5rem;
 }
 
-/*Definições do título do input*/
+/* Input title */
 .cpf label {
-
-    /*Box model*/
-    margin-bottom: 14.04px;
+    margin-bottom: 1.404rem;
 
     cursor: pointer;
 }
 
-/*Definições do input*/
+/* Input settings */
 .cpf input {
-    /*Box model*/
-    height: 51.13px;
-    padding: 15px 0 15px 15px;
+    height: 5.113rem;
+    padding: 1.5rem 0 1.5rem 1.5rem;
     border-radius: 25px;
     border: none;
 
-    /*Definições de fonte*/
-    font-size: 32px;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 3.2rem;
+    font-family: 'Times New Roman';
 }
 
-/*================Data de Nascimento===================*/
+/*=== Birth data ===*/
 
-/*Definições gerais da data de nascimento*/
+/* General settings */
 .birth-data {
-    /*Box model*/
-    margin-top: 9.02px;
+    margin-top: 0.902rem;
 
-    /*background-color: darkblue;*/
-
-    /*Definições da fonte*/
-    font-size: 45px;
+    font-size: 4.5rem;
 }
 
-/*Definições do título da data de nascimento*/
+/* Label settings */
 .birth-data label {
-    /*Box model*/
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
 
     cursor: pointer;
 }
 
-/*Definções do input*/
+/* Input settings */
 .birth-data input {
-    /*Box model*/
-    height: 51.13px;
-    padding: 0 15px 0 15px;
+    height: 5.113rem;
+    padding: 0 1.5rem 0 1.5rem;
     border-radius: 25px;
     border: none;
 
     /*Definições da fonte*/
-    font-size: 30px;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    font-family: 'Times New Roman';
 }
 
-/*Defições off focus*/
-/*Cor do texto de data-nascimento*/
+/* Off-focus settings */
+/* Text color */
 .data-nascimento input {
     color: grey;
 }
 
-/*Cor do ícone de calendário*/
+/* Calendar icon color */
 .data-nascimento input::-webkit-calendar-picker-indicator {
     opacity: 0.5;
 }
 
-/*Definições on focus*/
-/*Cor do texto de data-nascimento*/
+/* Off-focus settings */
+/* Text color */
 .data-nascimento input:focus {
     color: black;
 }
 
-/*Cor do ícone de calendário*/
+/* Calendar icon color */
 .data-nascimento input:focus::-webkit-calendar-picker-indicator {
     opacity: 1.0;
 }
 
-/*================CONTATO===================*/
+/*===CONTACT===*/
 
-/*Fieldset Contato*/
+/* Contact Fieldset */
 .contact {
-    width: 1050px;
+    width: 105rem;
     height: auto;
+
     border: none;
-    margin-bottom: 46.26px;
+    margin-bottom: 4.626rem;
 
     display: flex;
+    /* current main-axis */
     flex-direction: column;
-    /*Eixo transversal*/
+    /* cross-axis */
     align-items: center;
-
-    /*bafckground-color: forestgreen;*/
 }
 
-/*Título do fieldset*/
+/* Fieldset title */
 .legend-2 {
-    padding: 0 0 0 30px;
+    padding: 0 0 0 3rem;
 
-    font-size: 70px;
+    font-size: 7rem;
     font-weight: bold;
-
-    /*background-color: gray;*/
 }
 
-/*================Parágrafos===================*/
+/*=== Paragraphs ===*/
 
-/*Definições gerais para parágrafos de contato*/
+/* General settings */
 .contact div {
     display: flex;
+    /* current main-axis */
     flex-direction: column;
 
-    width: 980px;
+    width: 98rem;
     height: auto;
 }
 
-/*================Telefone===================*/
+/*=== Phone ===*/
 
-
-/*Definições gerais para telefone*/
+/* General settings */
 .phone {
-    /*background-color: deepskyblue;*/
-    margin-top: 25px;
-    font-size: 45px;
+    margin-top: 2.5rem;
+    font-size: 4.5rem;
 }
 
-/*Definições do título do input*/
+/* Input title */
 .phone label {
     cursor: pointer;
-    margin-bottom: 5px;
+    margin-bottom: 0.5rem;
 }
 
-/*Definições do input*/
+/* Input settings */
 .phone input {
-    height: 51.13px;
-    padding: 15px 0 18px 15px;
+    height: 5.113rem;
+    padding: 1.5rem 0 1.8rem 1.5rem;
     border-radius: 25px;
     border: none;
-    font-size: 32px;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 3.2rem;
+    font-family: 'Times New Roman';
 }
 
-/*================Telefone 2===================*/
+/*=== Phone 2 ===*/
 
-/*Definições gerais para Telefone 2*/
+/* General settings */
 .phone-2 {
-    /*background-color: black;*/
-    margin-top: 41.11px;
-    font-size: 45px;
+    margin-top: 4.111rem;
+    font-size: 4.5rem;
 }
 
-/*Definições do título do input*/
+/* Input title */
 .phone-2 label {
     cursor: pointer;
-    /*margin-bottom: 5px;*/
+    margin-bottom: 0.5rem;
 }
 
-/*Definições do input*/
+/* Input settings */
 .phone-2 input {
-    height: 51.13px;
-    padding: 15px 0 18px 15px;
+    height: 5.113rem;
+    padding: 1.5rem 0 1.8rem 1.5rem;
     border: none;
     border-radius: 25px;
-    font-size: 32px;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 3.2rem;
+    font-family: 'Times New Roman';
 }
 
-/*================E-mail===================*/
+/*=== E-mail ===*/
 
-/*Definições gerais para E-mail*/
+/* General settings */
 .email {
-    /*background-color: brown;*/
-    margin-top: 34.09px;
+    margin-top: 3.409rem;
 }
 
-/*Definições do título do input*/
+/* Input title */
 .email label {
-    font-size: 45px;
-    margin-bottom: 3px;
+    font-size: 4.5rem;
+    margin-bottom: 0.5rem;
 }
 
-/*Definições do input*/
+/* Input settings */
 .email input {
-    height: 51.13px;
-    padding: 0 0 7px 10px;
+    height: 5.113rem;
+    padding: 1.5rem 0 1.8rem 1.5rem;
     border-radius: 25px;
     border: none;
-    font-size: 32px;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 3.2rem;
+    font-family: 'Times New Roman';
 }
 
-/*================ENDEREÇO===================*/
+/*=== Adress ===*/ /* AQUI */
 
-/*Fieldset Endereço*/
+/* General settings */
 .adress {
-    /*background-color: darkgrey;*/
-    width: 1050px;
+    width: 105rem;
     height: auto;
     border: none;
-    margin-bottom: 41.73px;
+    margin-bottom: 4.173rem;
 
     display: flex;
+    /* current main-axis */
     flex-direction: column;
-    /*Eixo transversal*/
+    /* cross-axis */
     align-items: center;
 }
 
-/*Título do fieldset*/
+/* Fieldset title */
 .legend-3 {
-    margin: 0 0 0 30px;
+    margin: 0 0 0 3rem;
 
-    font-size: 70px;
+    font-size: 7rem;
     font-weight: bold;
 }
 
-/*================Duplas de parágrafos===================*/
+/*=== Paragraphs duos  ===*/
 .duos {
-    width: 980px;
+    width: 98rem;
     height: auto;
-    /*padding: 5px;*/
+    
     display: flex;
+    /* current main-axis */
     flex-direction: row;
-    /*Eixo principal*/
+    /* main-axis */
     justify-content: center;
-
-    gap: 11.04px;
+    gap: 1.104rem; 
 }
 
-/*Identificação visual das duplas*/
+/* Duos visual identification */
 .duo-a {
-    /*background-color: lightgreen;*/
-    margin-top: 8px;
+    margin-top: 0.8rem;
 }
 
 .duo-b {
-    /*background-color: yellow;*/
-    margin-top: 4.74px;
+    margin-top: 0.474rem;
 }
 
 .dupla-c {
-    /*background-color: lightblue;*/
-    margin-top: 4.74px;
+    margin-top: 0.474rem;
 }
 
-/*================Parágrafos===================*/
+/*=== Divs ===*/
 
-/*Definições gerais para parágrafos de endereço*/
+/* General settings */
 .adress .duos div {
-    width: 490px;
-    display: flex;
-    flex-direction: column;
+    width: 49rem;
 
-    /* background-color: darkviolet; */
+    
+    display: flex;
+    /* current main-axis */ 
+    flex-direction: column;
 }
 
 /*================CEP===================*/
