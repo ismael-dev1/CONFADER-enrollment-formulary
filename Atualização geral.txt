@@ -1,0 +1,5 @@
+- Semantic, acessibility
+- Rename all the classes to english
+- Scalable propeties with classes
+- Media query mobile/smarthone
+- Final deploy
