@@ -408,7 +408,7 @@ body {
 }
 
 .adress .duo-b .street input {
-    height: 5.113px;
+    height: 5.113rem;
     padding: 0 0 0 1.5rem;
     border: none;
     border-radius: 25px;
@@ -544,7 +544,7 @@ body {
     font-size: 3.2rem;
 }
 
-/*=== Cidade ===*/
+/*=== City ===*/
 .churchs-data .churchs-city {
     font-size: 4.5rem;
 }
@@ -554,7 +554,7 @@ body {
 }
 
 .churchs-data .churchs-city input {
-    height: 5.113px;
+    height: 5.113rem;
     padding: 0 0 0 1.5rem;
     border: none;
     border-radius: 25px;
