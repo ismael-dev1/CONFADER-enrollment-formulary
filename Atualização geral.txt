@@ -1,6 +1,6 @@
 - Semantic -> OK
 - Rename all the classes to english -> OK
-- Acessibility
+- Accessibility -> OK
 - Scalable propeties with classes
-- Media query mobile/smarthone
+- Media query mobile/smartphone
 - Final deploy

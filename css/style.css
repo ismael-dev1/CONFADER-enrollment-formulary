@@ -3,8 +3,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    font-family: 'Times New Roman', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 /*=== REM reference ===*/
@@ -12,7 +12,7 @@ html {
     font-size: 62.5%;
 }
 
-/*=== body ===*/
+/*=== Body ===*/
 body {
     width: 100%;
     background-color: #fcf0f9;
@@ -121,7 +121,6 @@ body {
     border: none;
 
     font-size: 3.2rem;
-    font-family: 'Times New Roman';
 }
 
 /*===CPF===*/
@@ -148,7 +147,6 @@ body {
     border: none;
 
     font-size: 3.2rem;
-    font-family: 'Times New Roman';
 }
 
 /*=== Birth data ===*/
@@ -176,7 +174,6 @@ body {
 
     /*Definições da fonte*/
     font-size: 3rem;
-    font-family: 'Times New Roman';
 }
 
 /* Off-focus settings */
@@ -259,7 +256,6 @@ body {
     border-radius: 25px;
     border: none;
     font-size: 3.2rem;
-    font-family: 'Times New Roman';
 }
 
 /*=== Phone 2 ===*/
@@ -283,7 +279,6 @@ body {
     border: none;
     border-radius: 25px;
     font-size: 3.2rem;
-    font-family: 'Times New Roman';
 }
 
 /*=== E-mail ===*/
@@ -306,10 +301,9 @@ body {
     border-radius: 25px;
     border: none;
     font-size: 3.2rem;
-    font-family: 'Times New Roman';
 }
 
-/*=== Adress ===*/ /* AQUI */
+/*=== Adress ===*/
 
 /* General settings */
 .adress {
@@ -365,15 +359,14 @@ body {
 .adress .duos div {
     width: 49rem;
 
-    
     display: flex;
     /* current main-axis */ 
     flex-direction: column;
 }
 
-/*================CEP===================*/
+/*=== CEP ===*/ /* AQUI */
 .adress .duo-a .cep {
-    font-size: 45px;
+    font-size: 4.5rem;
 }
 
 .adress .duo-a .cep label {
@@ -381,17 +374,16 @@ body {
 }
 
 .adress .duo-a .cep input {
-    height: 51.13px;
-    padding: 0 0 0 15px;
+    height: 5.113rem;
+    padding: 0 0 0 1.5rem;
     border: none;
     border-radius: 25px;
-    font-size: 32px;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 3.2rem;
 }
 
-/*================Número===================*/
+/*=== House number ===*/
 .adress .duo-a .house-number {
-    font-size: 45px;
+    font-size: 4.5rem;
 }
 
 .adress .duo-a .house-number label {
@@ -399,17 +391,16 @@ body {
 }
 
 .adress .duo-a .house-number input {
-    height: 51.13px;
-    padding: 0 0 0 15px;
+    height: 5.113rem;
+    padding: 0 0 0 1.5rem;
     border: none;
     border-radius: 25px;
-    font-size: 32px;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 3.2rem;
 }
 
-/*================Rua===================*/
+/*=== Street ===*/
 .adress .duo-b .street {
-    font-size: 45px;
+    font-size: 4.5rem;
 }
 
 .adress .duo-b .street label {
@@ -417,17 +408,16 @@ body {
 }
 
 .adress .duo-b .street input {
-    height: 51.13px;
-    padding: 0 0 0 15px;
+    height: 5.113px;
+    padding: 0 0 0 1.5rem;
     border: none;
     border-radius: 25px;
-    font-size: 32px;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 3.2rem;
 }
 
-/*================Bairro===================*/
+/*=== Neighborhood ===*/
 .adress .duo-b .ngbhd {
-    font-size: 45px;
+    font-size: 4.5rem;
 }
 
 .adress .duo-b .ngbhd label {
@@ -435,17 +425,16 @@ body {
 }
 
 .adress .duo-b .ngbhd input {
-    height: 51.13px;
-    padding: 0 0 0 15px;
+    height: 5.113rem;
+    padding: 0 0 0 1.5rem;
     border: none;
     border-radius: 25px;
-    font-size: 32px;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 3.2rem;
 }
 
-/*================Cidade===================*/
+/*=== City ===*/
 .adress .duo-c .city {
-    font-size: 45px;
+    font-size: 4.5rem;
 }
 
 .adress .duo-c .city label {
@@ -453,18 +442,17 @@ body {
 }
 
 .adress .duo-c .city input {
-    height: 51.13px;
-    padding: 0 0 0 15px;
+    height: 5.113rem;
+    padding: 0 0 0 1.5rem;
     border: none;
     border-radius: 25px;
-    font-size: 32px;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 3.2rem;
 }
 
-/*================Estado===================*/
+/*=== State ===*/
 
 .adress .duo-c .state {
-    font-size: 45px;
+    font-size: 4.5rem;
 }
 
 .adress .duo-c .state label {
@@ -472,97 +460,93 @@ body {
 }
 
 .adress .duo-c .state input {
-    height: 51.13px;
-    padding: 0 0 0 15px;
+    height: 5.113rem;
+    padding: 0 0 0 1.5rem;
     border: none;
     border-radius: 25px;
-    font-size: 32px;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 3.2rem;
 }
 
-/*================Complemento===================*/
+/*=== Complement ===*/
 .adress .complement {
-    /*background-color: darkolivegreen;*/
-    width: 980px;
+    width: 98rem;
     height: auto;
-    margin-top: 8.93px;
-    font-size: 45px;
+    margin-top: 0.893rem;
+    font-size: 4.5rem;
 
     display: flex;
+    /* current flex-direction */
     flex-direction: column;
 }
 
 .adress .complement label {
     cursor: pointer;
-    margin-bottom: 5px;
+    margin-bottom: 0.5rem;
 }
 
 .adress .complement input {
-    height: 51.13px;
-    padding: 0 0 0 15px;
+    height: 5.113rem;
+    padding: 0 0 0 1.5rem;
     border: none;
     border-radius: 25px;
-    font-size: 32px;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 3.2rem;
 }
 
-/*================DADOS INSTITUCIONAIS===================*/
+/*=== Church's data ===*/
 
-/*Fieldset Dados institucionais*/
+/* Church's data fieldset */
 .churchs-data {
-    /*background-color:brown;*/
-    width: 1050px;
+    width: 105rem;
     height: auto;
     border: none;
-    margin-bottom: 84.59px;
+    margin-bottom: 8.459rem;
 
     display: flex;
     flex-direction: column;
     /*Eixo transversal*/
     align-items: center;
 
-    gap: 10px;
+    gap: 1rem;
 }
 
-/*Título do fieldset*/
+/* Título do fieldset */
 .legend-4 {
-    margin: 0 0 0 30px;
+    margin: 0 0 0 3rem;
 
-    font-size: 70px;
+    font-size: 7rem;
     font-weight: bold;
 }
 
-/*================Definições gerais para parágrafos===================*/
+/*=== Div's general settings ===*/
 .churchs-data div {
-    /*background-color: blue;*/
-    width: 980px;
+    width: 98rem;
 
     display: flex;
+    /* currennt main-axis */
     flex-direction: column;
 }
 
-/*================Nome da Igreja===================*/
+/*=== Nome da Igreja ===*/
 .churchs-data .churchs-name {
-    font-size: 45px;
+    font-size: 4.5rem;
 }
 
 .churchs-data .churchs-name label {
     cursor: pointer;
-    margin-bottom: 5px;
+    margin-bottom: 0.5rem;
 }
 
 .churchs-data .churchs-name input {
-    height: 51.13px;
-    padding: 0 0 0 15px;
+    height: 5.113rem;
+    padding: 0 0 0 1.5rem;
     border: none;
     border-radius: 25px;
-    font-size: 32px;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 3.2rem;
 }
 
-/*===============Cidade===================*/
+/*=== Cidade ===*/
 .churchs-data .churchs-city {
-    font-size: 45px;
+    font-size: 4.5rem;
 }
 
 .churchs-data .churchs-city label {
@@ -570,17 +554,16 @@ body {
 }
 
 .churchs-data .churchs-city input {
-    height: 51.13px;
-    padding: 0 0 0 15px;
+    height: 5.113px;
+    padding: 0 0 0 1.5rem;
     border: none;
     border-radius: 25px;
-    font-size: 32px;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 3.2rem; 
 }
 
-/*===============Cidade===================*/
+/*=== Local leader ===*/
 .churchs-data .local-leader {
-    font-size: 45px;
+    font-size: 4.5rem;
 }
 
 .churchs-data .local-leader label {
@@ -588,30 +571,29 @@ body {
 }
 
 .churchs-data .local-leader input {
-    height: 51.13px;
-    padding: 0 0 0 15px;
+    height: 5.113rem;
+    padding: 0 0 0 1.5rem;
     border: none;
     border-radius: 25px;
-    font-size: 32px;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 3.2rem;
 }
 
-/*===============Botão CONTINUAR===================*/
+/*=== Button CONTINUAR ===*/
 
 .submit-button button {
-    width: 980px;
-    height: 51.13px;
+    width: 98rem;
+    height: 5.113rem;
     border: none;
-    border-radius: 25px;
+    border-radius: 2.5rem;
 
     background-color: #1E3A5F;
     color: white;
-    font-size: 48px;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 4.8rem;
     font-weight: bold;
     cursor: pointer;
 
     display: flex;
+    /* current main-axis */
     flex-direction: row;
     /*Eixo principal*/
     justify-content: center;
@@ -626,24 +608,26 @@ body {
     color: #DA1F81;
 }
 
-/*===============RODAPÉ===================*/
+/*=== Footer ===*/ 
 .footer {
-    height: 100px;
+    height: 10rem;
     border-top: 1px solid black;
-    margin-top: 50px;
+    margin-top: 5rem;
 
     background-color: #DA1F81;
     color: white;
-    font-size: 30px;
-
+    font-size: 3rem;
 
     display: flex;
+    /* current main-axis */
     flex-direction: row;
     /*Eixo principal*/
     justify-content: space-around;
     /*Eixo transversal*/
     align-items: center;
 }
+
+
 
 
 /* Media query - mobile - smartphone
