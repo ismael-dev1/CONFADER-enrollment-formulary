@@ -1,6 +1,11 @@
 - Semantic -> OK
 - Rename all the classes to english -> OK
 - Accessibility -> OK
-- Scalable propeties with classes
+
+- Scalable propeties
+
 - Media query mobile/smartphone
 - Final deploy
+
+
+Sobre escalabilidade: https://chatgpt.com/c/6aa2cceb-5774-83e9-b1b0-49390a179ee9

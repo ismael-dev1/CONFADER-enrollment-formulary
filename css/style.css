@@ -57,8 +57,6 @@ body {
     display: flex;
     /* current main-axis */
     flex-direction: column;
-    /* main-axis ("start"? flex-start?) */
-    justify-content: start;
     /* cross-axis */
     align-items: center;
 
