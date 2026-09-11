@@ -18,77 +18,87 @@ body {
     background-color: #fcf0f9;
 }
 
-/*=== Header ===*/
-.header {
-    width: 100%;
-    height: auto;
 
-    background-color: #DA1F81;
 
+
+/*=== General centralization styles ===*/
+.centralizer-containers {
     display: flex;
     /* current main-axis */
-    flex-direction: row;
-    /* main-axis */
-    justify-content: center;
+    flex-direction: column;
+    /* cross-axis */
+    align-items: center;
+}
 
-    font-size: 5rem;
+/*=== General color styles ===*/
+.default-colors {
+    background-color: #DA1F81;
     color: #FCF0F9;
 }
 
-/*=== Main content ===*/
-.main-content {
+/*=== General height styles ===*/
+.default-height {
+    height: auto;
+}
+
+/*=== General input container styles ===*/
+.input-container {
+    background-color: rebeccapurple;
+
+    width: 98rem;
+
     display: flex;
     /* current main-axis */
-    flex-direction: row;
-    /* main-axis */
-    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*=== Header ===*/
+.header {
+    width: 100%;
+
+    font-size: 5rem;
 }
 
 /*=== Formulary ===*/
 .formulary {
     width: 115rem;
-    height: 233rem;
-
-    margin: 7rem 18rem 6.9rem 18rem;
     border-radius: 25px;
-
-    background-color: #DA1F81;
-
-    display: flex;
-    /* current main-axis */
-    flex-direction: column;
-    /* cross-axis */
-    align-items: center;
-
-    color: #FCF0F9;
+    margin: 7rem 18rem 6.9rem 18rem;
 }
 
 /*=== Personal data ===*/
 .personal-data {
+    background-color: blue;
     width: 105rem;
-    height: auto;
     border: none;
 
     margin-bottom: 38.7px;
-
-    display: flex;
-    /* current main-axis */
-    flex-direction: column;
-    /* cross-axis */
-    align-items: center;
 }
 
 /*=== Fieldset title ===*/
 .legend-1 {
-    margin-bottom: 2.64rem;
     padding: 6rem 0 0 3rem;
+    margin-bottom: 2.64rem;
 
     font-size: 7rem;
     font-weight: bold;
 }
 
-/*== Personal data general settings ===*/
-.personal-data div {
+/*== General settings ===*/
+.personal-data .input-container {
+    background-color: rebeccapurple;
+
     width: 98rem;
     height: auto;
 
@@ -201,16 +211,9 @@ body {
 /* Contact Fieldset */
 .contact {
     width: 105rem;
-    height: auto;
 
     border: none;
     margin-bottom: 4.626rem;
-
-    display: flex;
-    /* current main-axis */
-    flex-direction: column;
-    /* cross-axis */
-    align-items: center;
 }
 
 /* Fieldset title */
@@ -219,18 +222,6 @@ body {
 
     font-size: 7rem;
     font-weight: bold;
-}
-
-/*=== Paragraphs ===*/
-
-/* General settings */
-.contact div {
-    display: flex;
-    /* current main-axis */
-    flex-direction: column;
-
-    width: 98rem;
-    height: auto;
 }
 
 /*=== Phone ===*/
@@ -306,15 +297,8 @@ body {
 /* General settings */
 .adress {
     width: 105rem;
-    height: auto;
     border: none;
     margin-bottom: 4.173rem;
-
-    display: flex;
-    /* current main-axis */
-    flex-direction: column;
-    /* cross-axis */
-    align-items: center;
 }
 
 /* Fieldset title */
@@ -329,13 +313,13 @@ body {
 .duos {
     width: 98rem;
     height: auto;
-    
+
     display: flex;
     /* current main-axis */
     flex-direction: row;
     /* main-axis */
     justify-content: center;
-    gap: 1.104rem; 
+    gap: 1.104rem;
 }
 
 /* Duos visual identification */
@@ -358,11 +342,12 @@ body {
     width: 49rem;
 
     display: flex;
-    /* current main-axis */ 
+    /* current main-axis */
     flex-direction: column;
 }
 
-/*=== CEP ===*/ /* AQUI */
+/*=== CEP ===*/
+/* AQUI */
 .adress .duo-a .cep {
     font-size: 4.5rem;
 }
@@ -495,14 +480,8 @@ body {
 /* Church's data fieldset */
 .churchs-data {
     width: 105rem;
-    height: auto;
     border: none;
     margin-bottom: 8.459rem;
-
-    display: flex;
-    flex-direction: column;
-    /*Eixo transversal*/
-    align-items: center;
 
     gap: 1rem;
 }
@@ -513,15 +492,6 @@ body {
 
     font-size: 7rem;
     font-weight: bold;
-}
-
-/*=== Div's general settings ===*/
-.churchs-data div {
-    width: 98rem;
-
-    display: flex;
-    /* currennt main-axis */
-    flex-direction: column;
 }
 
 /*=== Nome da Igreja ===*/
@@ -556,7 +526,7 @@ body {
     padding: 0 0 0 1.5rem;
     border: none;
     border-radius: 25px;
-    font-size: 3.2rem; 
+    font-size: 3.2rem;
 }
 
 /*=== Local leader ===*/
@@ -583,6 +553,7 @@ body {
     height: 5.113rem;
     border: none;
     border-radius: 2.5rem;
+    margin-bottom: 8rem;
 
     background-color: #1E3A5F;
     color: white;
@@ -606,7 +577,7 @@ body {
     color: #DA1F81;
 }
 
-/*=== Footer ===*/ 
+/*=== Footer ===*/
 .footer {
     height: 10rem;
     border-top: 1px solid black;
