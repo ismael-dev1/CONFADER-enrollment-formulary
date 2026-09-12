@@ -1,0 +1,18 @@
+- Semantic -> OK
+- Rename all the classes to english -> OK
+- Accessibility -> OK
+
+- Scalable propeties
+
+- Media query mobile/smartphone
+- Final deploy
+
+--------------------------------------------
+
+Criar classes para propriedades gerais como:
+- Centralização geral
+- Cores gerais
+
+
+
+- Abrir classes específicas para propriedades individuais e pontuais 

@@ -1,0 +1,7 @@
+Unificar e escalar:
+
+Centralização de containers - OK
+Cores gerais - OK
+Containers de input - OK
+Legend
+Fieldset - OK

@@ -1,0 +1,19 @@
+=== Piloto ===
+
+Uma propriedade é uma candidata à abstração quando:
+
+- Se repete (aparece em pelo menos dois lugares);
+- Tem o mesmo valor;
+- Tem o mesmo objetivo/finalidade;
+- Faz sentido como uma única regra compartilhada (IMPORTANTE!).
+
+------------------------------------------------------------------------
+
+=== Main ===
+
+A propriedade:
+
+- Se repete?
+- Elas Tem o mesmo valor?
+- Elas tem o mesmo objetivo?
+- Elas fazem sentido como uma única regra compartilhada?
