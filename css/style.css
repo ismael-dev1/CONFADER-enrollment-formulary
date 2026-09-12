@@ -19,7 +19,7 @@ body {
 }
 
 
-
+/* =================================================== */
 
 /*=== General centralization styles ===*/
 .centralizer-containers {
@@ -36,32 +36,29 @@ body {
     color: #FCF0F9;
 }
 
-/*=== General height styles ===*/
-.default-height {
-    height: auto;
-}
-
 /*=== General input container styles ===*/
 .input-container {
-    background-color: rebeccapurple;
+    background-color: green;
 
     width: 98rem;
+    height: auto;
 
     display: flex;
     /* current main-axis */
     flex-direction: column;
 }
 
+/*=== Fieldset general styles ===*/
+fieldset {
+    background-color: aqua;
+    width: 105rem;
+    height: auto;
+    
+    border: none;
+    margin-bottom: 5.282rem;
+}
 
-
-
-
-
-
-
-
-
-
+/* =================================================== */
 
 /*=== Header ===*/
 .header {
@@ -73,18 +70,11 @@ body {
 /*=== Formulary ===*/
 .formulary {
     width: 115rem;
+    height: auto;
     border-radius: 25px;
     margin: 7rem 18rem 6.9rem 18rem;
 }
 
-/*=== Personal data ===*/
-.personal-data {
-    background-color: blue;
-    width: 105rem;
-    border: none;
-
-    margin-bottom: 38.7px;
-}
 
 /*=== Fieldset title ===*/
 .legend-1 {
@@ -95,17 +85,19 @@ body {
     font-weight: bold;
 }
 
-/*== General settings ===*/
-.personal-data .input-container {
-    background-color: rebeccapurple;
 
-    width: 98rem;
-    height: auto;
 
-    display: flex;
-    /* current main-axis */
-    flex-direction: column;
-}
+
+
+
+
+
+
+
+
+
+
+
 
 /*===Full Name===*/
 
@@ -206,15 +198,7 @@ body {
     opacity: 1.0;
 }
 
-/*===CONTACT===*/
-
-/* Contact Fieldset */
-.contact {
-    width: 105rem;
-
-    border: none;
-    margin-bottom: 4.626rem;
-}
+/*=== CONTACT ===*/
 
 /* Fieldset title */
 .legend-2 {
@@ -293,13 +277,6 @@ body {
 }
 
 /*=== Adress ===*/
-
-/* General settings */
-.adress {
-    width: 105rem;
-    border: none;
-    margin-bottom: 4.173rem;
-}
 
 /* Fieldset title */
 .legend-3 {
@@ -452,14 +429,8 @@ body {
 
 /*=== Complement ===*/
 .adress .complement {
-    width: 98rem;
-    height: auto;
     margin-top: 0.893rem;
     font-size: 4.5rem;
-
-    display: flex;
-    /* current flex-direction */
-    flex-direction: column;
 }
 
 .adress .complement label {
@@ -473,17 +444,6 @@ body {
     border: none;
     border-radius: 25px;
     font-size: 3.2rem;
-}
-
-/*=== Church's data ===*/
-
-/* Church's data fieldset */
-.churchs-data {
-    width: 105rem;
-    border: none;
-    margin-bottom: 8.459rem;
-
-    gap: 1rem;
 }
 
 /* Título do fieldset */
