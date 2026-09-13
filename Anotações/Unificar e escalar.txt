@@ -2,6 +2,8 @@ Unificar e escalar:
 
 Centralização de containers - OK
 Cores gerais - OK
-Containers de input - OK
-Legend
+input-container - OK
+Label - 
+Legends - OK
 Fieldset - OK
+
