@@ -3,7 +3,10 @@ Unificar e escalar:
 Centralização de containers - OK
 Cores gerais - OK
 input-container - OK
-Label - 
+Label - OK (New)
+Input - OK (New)
+Adress - Begin 
 Legends - OK
 Fieldset - OK
+
 

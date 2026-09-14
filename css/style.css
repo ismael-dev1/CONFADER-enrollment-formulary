@@ -3,8 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Times New Roman', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
-        Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Times New Roman', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 /*=== REM reference ===*/
@@ -18,6 +17,20 @@ body {
     background-color: #fcf0f9;
 }
 
+/*=== Header ===*/
+.header {
+    width: 100%;
+
+    font-size: 5rem;
+}
+
+/*=== Formulary ===*/
+.formulary {
+    width: 115rem;
+    height: auto;
+    border-radius: 25px;
+    margin: 7rem 18rem 6.9rem 18rem;
+}
 
 /* =================================================== */
 
@@ -43,7 +56,7 @@ body {
     width: 98rem;
     height: auto;
 
-    margin-top: 1.5rem; 
+    margin-top: 1.5rem;
 
     display: flex;
     /* current main-axis */
@@ -69,68 +82,13 @@ fieldset {
     font-weight: bold;
 }
 
-/* =================================================== */
-
-/*=== Header ===*/
-.header {
-    width: 100%;
-
-    font-size: 5rem;
-}
-
-/*=== Formulary ===*/
-.formulary {
-    width: 115rem;
-    height: auto;
-    border-radius: 25px;
-    margin: 7rem 18rem 6.9rem 18rem;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*===Full Name===*/
-
-/* Input title */
-.full-name label {
-    margin-bottom: 1.404rem;
-
+label {
+    font-size: 4.5rem;
+    margin-bottom: 0.5rem;
     cursor: pointer;
 }
 
-/* Input settings */
-.full-name input {
-    height: 5.113rem;
-    padding: 1.3rem 0 1.5rem 1.5rem;
-    border-radius: 25px;
-    border: none;
-
-    font-size: 3.2rem;
-}
-
-/*===CPF===*/
-
-/* Input title */
-.cpf label {
-    margin-bottom: 1.404rem;
-
-    cursor: pointer;
-}
-
-/* Input settings */
-.cpf input {
+input {
     height: 5.113rem;
     padding: 1.5rem 0 1.5rem 1.5rem;
     border-radius: 25px;
@@ -139,30 +97,10 @@ fieldset {
     font-size: 3.2rem;
 }
 
-/*=== Birth data ===*/
+/* =================================================== */
 
-/* General settings */
+/*=== Birth data off focus styles ===*/
 
-
-/* Label settings */
-.birth-data label {
-    margin-bottom: 1rem;
-
-    cursor: pointer;
-}
-
-/* Input settings */
-.birth-data input {
-    height: 5.113rem;
-    padding: 0 1.5rem 0 1.5rem;
-    border-radius: 25px;
-    border: none;
-
-    /*Definições da fonte*/
-    font-size: 3rem;
-}
-
-/* Off-focus settings */
 /* Text color */
 .data-nascimento input {
     color: grey;
@@ -173,7 +111,6 @@ fieldset {
     opacity: 0.5;
 }
 
-/* Off-focus settings */
 /* Text color */
 .data-nascimento input:focus {
     color: black;
@@ -184,81 +121,15 @@ fieldset {
     opacity: 1.0;
 }
 
-/*=== CONTACT ===*/
-
-/* Fieldset title */
-.legend-2 {
-    padding: 0 0 0 3rem;
-
-    font-size: 7rem;
-    font-weight: bold;
-}
-
-/*=== Phone ===*/
-
-/* Input title */
-.phone label {
-    cursor: pointer;
-    margin-bottom: 0.5rem;
-}
-
-/* Input settings */
-.phone input {
-    height: 5.113rem;
-    padding: 1.5rem 0 1.8rem 1.5rem;
-    border-radius: 25px;
-    border: none;
-    font-size: 3.2rem;
-}
-
-/*=== Phone 2 ===*/
-
-/* Input title */
-.phone-2 label {
-    cursor: pointer;
-    margin-bottom: 0.5rem;
-}
-
-/* Input settings */
-.phone-2 input {
-    height: 5.113rem;
-    padding: 1.5rem 0 1.8rem 1.5rem;
-    border: none;
-    border-radius: 25px;
-    font-size: 3.2rem;
-}
-
-/*=== E-mail ===*/
-
-/* Input title */
-.email label {
-    font-size: 4.5rem;
-    margin-bottom: 0.5rem;
-}
-
-/* Input settings */
-.email input {
-    height: 5.113rem;
-    padding: 1.5rem 0 1.8rem 1.5rem;
-    border-radius: 25px;
-    border: none;
-    font-size: 3.2rem;
-}
-
 /*=== Adress ===*/
 
-/* Fieldset title */
-.legend-3 {
-    margin: 0 0 0 3rem;
-
-    font-size: 7rem;
-    font-weight: bold;
-}
-
-/*=== Paragraphs duos  ===*/
+/* Duos */
 .duos {
+    background-color: darkgray;
     width: 98rem;
     height: auto;
+
+    margin-top: 0.8rem;
 
     display: flex;
     /* current main-axis */
@@ -268,23 +139,9 @@ fieldset {
     gap: 1.104rem;
 }
 
-/* Duos visual identification */
-.duo-a {
-    margin-top: 0.8rem;
-}
+/* Divs (input container específico) */
 
-.duo-b {
-    margin-top: 0.474rem;
-}
-
-.dupla-c {
-    margin-top: 0.474rem;
-}
-
-/*=== Divs ===*/
-
-/* General settings */
-.adress .duos div {
+.adress .duos .local-input-containers {
     width: 49rem;
 
     display: flex;
@@ -292,31 +149,11 @@ fieldset {
     flex-direction: column;
 }
 
-/*=== CEP ===*/
-/* AQUI */
-.adress .duo-a .cep {
-    font-size: 4.5rem;
-}
 
-.adress .duo-a .cep label {
-    cursor: pointer;
-}
-
-.adress .duo-a .cep input {
-    height: 5.113rem;
-    padding: 0 0 0 1.5rem;
-    border: none;
-    border-radius: 25px;
-    font-size: 3.2rem;
-}
 
 /*=== House number ===*/
 .adress .duo-a .house-number {
     font-size: 4.5rem;
-}
-
-.adress .duo-a .house-number label {
-    cursor: pointer;
 }
 
 .adress .duo-a .house-number input {
@@ -332,10 +169,6 @@ fieldset {
     font-size: 4.5rem;
 }
 
-.adress .duo-b .street label {
-    cursor: pointer;
-}
-
 .adress .duo-b .street input {
     height: 5.113rem;
     padding: 0 0 0 1.5rem;
@@ -349,10 +182,6 @@ fieldset {
     font-size: 4.5rem;
 }
 
-.adress .duo-b .ngbhd label {
-    cursor: pointer;
-}
-
 .adress .duo-b .ngbhd input {
     height: 5.113rem;
     padding: 0 0 0 1.5rem;
@@ -364,10 +193,6 @@ fieldset {
 /*=== City ===*/
 .adress .duo-c .city {
     font-size: 4.5rem;
-}
-
-.adress .duo-c .city label {
-    cursor: pointer;
 }
 
 .adress .duo-c .city input {
@@ -384,10 +209,6 @@ fieldset {
     font-size: 4.5rem;
 }
 
-.adress .duo-c .state label {
-    cursor: pointer;
-}
-
 .adress .duo-c .state input {
     height: 5.113rem;
     padding: 0 0 0 1.5rem;
@@ -396,79 +217,8 @@ fieldset {
     font-size: 3.2rem;
 }
 
-/*=== Complement ===*/
-.adress .complement label {
-    cursor: pointer;
-    margin-bottom: 0.5rem;
-}
 
-.adress .complement input {
-    height: 5.113rem;
-    padding: 0 0 0 1.5rem;
-    border: none;
-    border-radius: 25px;
-    font-size: 3.2rem;
-}
 
-/* Título do fieldset */
-.legend-4 {
-    margin: 0 0 0 3rem;
-
-    font-size: 7rem;
-    font-weight: bold;
-}
-
-/*=== Nome da Igreja ===*/
-.churchs-data .churchs-name {
-    font-size: 4.5rem;
-}
-
-.churchs-data .churchs-name label {
-    cursor: pointer;
-    margin-bottom: 0.5rem;
-}
-
-.churchs-data .churchs-name input {
-    height: 5.113rem;
-    padding: 0 0 0 1.5rem;
-    border: none;
-    border-radius: 25px;
-    font-size: 3.2rem;
-}
-
-/*=== City ===*/
-.churchs-data .churchs-city {
-    font-size: 4.5rem;
-}
-
-.churchs-data .churchs-city label {
-    cursor: pointer;
-}
-
-.churchs-data .churchs-city input {
-    height: 5.113rem;
-    padding: 0 0 0 1.5rem;
-    border: none;
-    border-radius: 25px;
-    font-size: 3.2rem;
-}
-
-/*=== Local leader ===*/
-.churchs-data .local-leader {
-    font-size: 4.5rem;
-}
-
-.churchs-data .local-leader label {
-    cursor: pointer;
-}
-
-.churchs-data .local-leader input {
-    height: 5.113rem;
-    padding: 0 0 0 1.5rem;
-    border: none;
-    border-radius: 25px;
-    font-size: 3.2rem;
-}
 
 /*=== Button CONTINUAR ===*/
 
@@ -488,9 +238,9 @@ fieldset {
     display: flex;
     /* current main-axis */
     flex-direction: row;
-    /*Eixo principal*/
+    /* main-axis */
     justify-content: center;
-    /*Eixo transversal*/
+    /* cross-axis */
     align-items: center;
 }
 
