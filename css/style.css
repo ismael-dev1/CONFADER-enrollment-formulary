@@ -80,6 +80,45 @@ fieldset {
     margin-top: 3rem;
 }
 
+
+/*=== Birth data ===*/
+
+/* General settings */
+.birth-data {
+    margin-top: 0.902rem;
+
+    font-size: 4.5rem;
+}
+
+/* Input settings */
+.birth-data input {
+    padding: 1.5rem;
+}
+
+/* Off-focus settings */
+/* Text color */
+.birth-data input {
+    color: grey;
+}
+
+/* Calendar icon color */
+.birth-data input::-webkit-calendar-picker-indicator {
+    opacity: 0.5;
+}
+
+/* Off-focus settings */
+/* Text color */
+.birth-data input:focus {
+    color: black;
+}
+
+/* Calendar icon color */
+.birth-data input:focus::-webkit-calendar-picker-indicator {
+    opacity: 1.0;
+}
+
+/* ========================================== */
+
 .legends {
     margin-left: 3rem;
     font-size: 7rem;
@@ -321,6 +360,6 @@ input {
 
         margin-top: 2.5rem;
 
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 }
