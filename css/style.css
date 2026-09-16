@@ -103,28 +103,6 @@ input {
 
 /* =================================================== */
 
-/*=== Birth data off focus styles ===*/
-
-/* Text color */
-.data-nascimento input {
-    color: grey;
-}
-
-/* Calendar icon color */
-.data-nascimento input::-webkit-calendar-picker-indicator {
-    opacity: 0.5;
-}
-
-/* Text color */
-.data-nascimento input:focus {
-    color: black;
-}
-
-/* Calendar icon color */
-.data-nascimento input:focus::-webkit-calendar-picker-indicator {
-    opacity: 1.0;
-}
-
 /*=== Adress ===*/
 
 /* Duos */
@@ -235,12 +213,11 @@ input {
 
     /*=== Fieldset general styles ===*/
     fieldset {
-        background-color: blue;
-
+        /* background-color: blue; */
         width: 30rem;
 
         padding: 5px;
-        margin-bottom: 0rem;
+        margin-bottom: 1rem;
     }
 
     .legends {
@@ -251,7 +228,6 @@ input {
 
     /*=== General input container styles ===*/
     .input-container {
-        background-color: green;
         width: 30rem;
         height: auto;
 
@@ -291,8 +267,6 @@ input {
 
     /* Duos */
     .duos {
-        background-color: gray;
-
         width: 30rem;
         height: auto;
 
@@ -311,8 +285,6 @@ input {
     /* Local (Adress) input containers */
 
     .adress .duos .local-input-containers {
-        background-color: black;
-
         width: 29rem;
 
         margin: 0rem;
@@ -340,23 +312,12 @@ input {
 
     /*=== Footer ===*/
     .footer {
-        width: 30rem;
+        /* width: 48rem; */
+        width: 100%;
         height: 10rem;
 
         margin-top: 2.5rem;
 
         font-size: 1.5rem;
-
-        display: flex;
-        /* current main-axis */
-        flex-direction: row;
-        /*Eixo principal*/
-        justify-content: space-around;
-        /*Eixo transversal*/
-        align-items: center;
-    }
-
-    footer p {
-        background-color: black;
     }
 }

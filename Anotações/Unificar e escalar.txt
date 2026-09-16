@@ -5,9 +5,8 @@ Cores gerais - OK
 input-container - OK
 Label - OK
 Input - OK
-Adress - OK (New) 
-Media query - To finish - (New)
+Adress - OK 
+Media query - OK
 Legends - OK
 Fieldset - OK
-
 
